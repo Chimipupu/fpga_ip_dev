@@ -1,3 +1,7 @@
+// IP: 十進カウンタ回路
+// Ver: 0.1 (2025/7/7)
+// Copyright (c) 2025 Chimipupu(https://github.com/Chimipupu) All Rights Reserved.
+
 module counter(CLK, RES, Q);
 
 input CLK, RES;

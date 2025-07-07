@@ -1,3 +1,7 @@
+// IP: UART
+// Ver: 0.1 (2025/7/7)
+// Copyright (c) 2025 Chimipupu(https://github.com/Chimipupu) All Rights Reserved.
+
 // UARTテストベンチ(115200 8N1)
 module tb_uart;
     reg clk = 0;
