@@ -33,6 +33,8 @@ module vmsm_tb;
         reset_n = 0;
         #12;
         reset_n = 1;
+
+        // ステートを全部回す
         for(uut.reg_state = 0; uut.reg_state > 2'b11; uut.reg_state++) begin
             #20;
         end

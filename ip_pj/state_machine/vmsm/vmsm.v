@@ -13,6 +13,7 @@ module vmsm(
     parameter SM_DISPENSING     = 2'b10; // 商品排出ステート
     parameter SM_CHANGE_RETURN  = 2'b11; // お釣り返却ステート
 
+    // ステートレジスタ
     reg [1:0] reg_state;
 
     // 状態遷移ロジック
